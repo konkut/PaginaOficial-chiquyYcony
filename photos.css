@@ -1,0 +1,48 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Lobster',cursive;
+	text-align: justify;	
+	margin: 4px;
+}
+.content-caja{
+	background: black;
+	border: 7px solid black;
+}
+.galeria{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
+	grid-template-rows: repeat(auto-fill, minmax(150px,1fr));
+	grid-auto-rows: 150px;
+	grid-auto-columns: 150px;
+	grid-auto-flow: dense;
+	grid-gap: 3px;
+}
+img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	
+}
+.cont-img{
+	background: lightgray;
+}
+.cont-img:active > img:first-child{
+	--monitor: grid;
+	display: var(--monitor);
+}
+img:first-child{
+	--monitor: none;
+	display: var(--monitor);
+}
+img:nth-child(2){
+	object-position: -20px 20px; 		
+}
+img:nth-child(5){
+	object-position: 0px 30px;	 	
+}
+@media only screen and (max-width: 550px){
+	
+}

@@ -1,0 +1,91 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Lobster',cursive;
+	text-align: justify;
+}
+.nav__ul-responsive{
+	display: none;
+}
+.etiqueta{
+	display: none;
+}
+.nav{
+	background: #000;
+}
+.nav__li{
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 20px;
+	
+}
+.nav__li i{
+	color: #fff;
+	box-sizing: border-box;
+	margin-right: 10px;
+}
+.nav__li a{
+	text-decoration: none; 
+	color: #777;
+}
+.nav__li a:hover{
+	color: #fff;
+	text-shadow: 5px 5px 15px #fff,5px 5px 15px #fff,5px 5px 15px #fff,5px 5px 15px #fff;
+}
+article{
+	padding-top:35px;
+}
+@media only screen and (max-width: 550px){
+	.nav__ul{
+		display: none;
+	}
+	.etiqueta{
+		display: inline-block;
+		height: 30px;
+		width: 100%;
+		background: #521;
+		padding-left: 90vw;
+		font-size: 20px;
+		color: #fff;
+	}
+	.nav__ul-responsive{
+		display: block;
+		position: absolute;
+		height:30px;
+		width:100%;
+		z-index: 10;
+	}
+	.nav__li-responsive{
+		padding: 20px 0px 20px 20px;
+	}
+	.nav__li-responsive i{
+		box-sizing: border-box;
+		margin-right: 10px;
+	}
+	.nav__li-responsive a{
+		text-decoration: none;
+		color: #000;
+		font-size: 18px;
+	}
+	.nav__li-responsive a:hover{
+		color: #fff;
+		text-shadow: 5px 5px 15px #fff,5px 5px 15px #fff,5px 5px 15px #fff,5px 5px 15px #fff;
+	}
+	
+	.nav__container{
+		position: relative;
+		top: -1000px;
+		height: 100vh;
+		width: 50vw;
+		background: #1a3;
+		transition: all 1s;
+		z-index: -1;
+	}
+	.nav__ul-responsive:hover > .nav__container{
+		top: 0px;
+	}
+	
+}
+

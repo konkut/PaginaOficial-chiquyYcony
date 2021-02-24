@@ -1,0 +1,54 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #22a; 
+}
+#box-table{
+	display: table;
+	// background: #fff;
+	border-spacing: 20px;
+	margin: 8px;;
+}
+#direction-table{
+	display: table-row; 
+}
+.firstly, .secondly, .finally{
+	display: table-cell;
+	background: #a1f;
+	padding: 15px;
+	border: 3px dashed black;
+}
+.firstly{
+	width: 60%;
+}
+.secondly, .finally{
+	width: 20%;
+}
+.secondly_caja{
+	width: 20%;
+	height: 20px;
+}
+.secondly-caption{
+	display: table-caption;
+	border: 3px dashed yellow;
+}
+.firstly-heredado{
+	display: inherit;
+	border: 3px dashed lightgray;
+}
+.firstly-heredado-group{
+	display: table-row-group;
+	border: 3px dashed orange;
+}
+.finally-list{
+	display: list-item;
+	margin-left: 10px;
+}
+.firstly-heredado-etiqueta{
+	display: inline;
+}
+.firstly-heredado-parrafo{
+	display: inline;
+}
