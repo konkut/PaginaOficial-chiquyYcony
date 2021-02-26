@@ -23,6 +23,7 @@ img{
 	height: 85vh;
 	filter: blur(2px);
 }
+
 img:active{
 	content:"";
 	
