@@ -3,11 +3,10 @@
 		margin: 0;
 		scroll-behavior: smooth;
 	}
-        body{
-                background: radial-gradient(circle, #ff0, #000);
-        }
-	.flex{
-		
+	body{
+		margin-left: 5px;
+		font-family: Times New Roman;
+		background: radial-gradient(circle,#fff,#fb9,#f81);
 	}
 	.flex-h1{
 		display: flex;
@@ -49,6 +48,56 @@
 		animation-timing-function: cubic-bezier(0.01, 0.95, 0.58, 1);
 		font-family: arial;
 		letter-spacing: 30px;
+	}
+	#flex-table , td{
+		border: 2px solid #000;
+		border-top: none;
+		border-bottom: none;
+		width: 30vw;
+		text-align: center;
+	}
+	#modal, #modalVideo, #modalAudio{
+		text-decoration: none;
+		font-family: Times New Roman;
+		color: #f00;
+		font-size: 20px;
+		display: flex;
+	}
+	#modal:hover{
+		text-shadow: 5px 5px 15px #f00,5px 5px 15px #f00,5px 5px 15px #f00,5px 5px 15px #f00;
+		color: #fff;
+	}
+	#modalVideo:hover{
+		text-shadow: 5px 5px 15px #f00,5px 5px 15px #f00,5px 5px 15px #f00,5px 5px 15px #f00;
+		color: #fff;
+	}
+	#modalAudio:hover{
+		text-shadow: 5px 5px 15px #f00,5px 5px 15px #f00,5px 5px 15px #f00,5px 5px 15px #f00;
+		color: #fff;
+	}
+	#label{
+		display: block;
+		opacity: 0.4;
+		direction: rtl;
+		color: #fff;
+		margin: 0 50px;
+	}
+	video{
+		display: flex;
+		margin: 0 auto;
+		min-width: 20vw;
+		width: 35vw;
+		height: 35vw;
+		padding: 5px;
+		background: black;
+
+	}
+	audio{
+		display: flex;
+		margin: 0 auto;
+		padding: 5px;
+		background: black;
+		min-width: 10px;
 	}
 	@KeyFrames rotar{
 		0%{	
