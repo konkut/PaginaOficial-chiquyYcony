@@ -82,12 +82,12 @@
 		color: #fff;
 		margin: 0 50px;
 	}
-	video{
+	video, iframe{
 		display: flex;
 		margin: 0 auto;
-		min-width: 20vw;
-		width: 35vw;
-		height: 35vw;
+		min-width: 40vw;
+		width: 50vw;
+		height: 50vh;
 		padding: 5px;
 		background: black;
 
@@ -98,6 +98,9 @@
 		padding: 5px;
 		background: black;
 		min-width: 10px;
+	}
+	iframe{
+		
 	}
 	@KeyFrames rotar{
 		0%{	
