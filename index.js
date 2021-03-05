@@ -38,5 +38,9 @@ etiqueta.setAttribute("style","background: linear-gradient(to bottom,transparent
 etiqueta.style.width ="fit-content";
 etiqueta.style.marginLeft = "30vw";
 
-
+document.getElementById("window")
+	.addEventListener("click",(e)=>{
+		// window.print();
+		console.log(window.locationbar.visible());
+});
 

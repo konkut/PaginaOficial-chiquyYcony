@@ -26,7 +26,9 @@ flecha1.addEventListener("click",(e)=>{
 });
 document.querySelector(".content-caja")
 	.addEventListener("click",(e)=>{
+		// console.log(e);
 		e.target.setAttribute("style","filter: brightness(1.3);");
+		// console.log(e.target);
 });
 
 
